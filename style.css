@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --Roxo-forte: #3C096C;
+    --Roxo: #5A189A;
+    --Roxo-claro: #9D4EDD;
+    --branco-smoke: #f6f6f5ff;
+    --preto: #000000;
+
+}
+
+body{
+    background-color: var(--Roxo-claro);
+    color: var(--branco-smoke);
+}

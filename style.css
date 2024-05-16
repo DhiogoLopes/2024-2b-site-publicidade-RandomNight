@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,10 +11,17 @@
     --Roxo-claro: #9D4EDD;
     --branco-smoke: #f6f6f5ff;
     --preto: #000000;
+    --texto-corpo:"Poetsen One", sans-serif;
+    --texto-titulo:"Raleway", sans-serif;
 
 }
 
 body{
-    background-color: var(--Roxo-claro);
-    color: var(--branco-smoke);
+    background-color: var(--branco-smoke);
+    color: var(--preto);
+    font-family: var(--texto-corpo);
 }
+
+.titulo-principal{
+    font-family: var(--texto-titulo);
+}   

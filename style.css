@@ -6,7 +6,7 @@
 }
 
 :root{
-    --Roxo-forte: #3C096C;
+    --Roxo-forte: #3c096c;
     --Roxo: #5A189A;
     --Roxo-claro: #9D4EDD;
     --branco-smoke: #f6f6f5ff;
@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: var(--branco-smoke);
+    background-color: var(--Roxo);
     color: var(--preto);
     font-family: var(--texto-corpo);
 }
@@ -25,3 +25,36 @@ body{
 .titulo-principal{
     font-family: var(--texto-titulo);
 }   
+
+.cabecalho{
+    background-color: var(--Roxo-forte);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.cabecalho-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.cabecalho-nav__link-home{
+    text-decoration: none;
+    font-family: var(--texto-titulo);
+    font-size: 24px;
+    color: rgb(8, 148, 3);
+    margin-right: 24px;
+}
+
+
+.cabecalho-nav__link-contato{
+    text-decoration: none;
+    font-family: var(--texto-titulo);
+    font-size: 24px;
+    color: var(--branco-smoke);
+    margin-right: 24px;
+}
+.cabecalho-nav__link-contato:hover{
+    color: rgb(8, 148, 3);
+}

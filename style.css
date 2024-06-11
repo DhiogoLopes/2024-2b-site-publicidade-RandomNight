@@ -9,6 +9,7 @@
     --Roxo-forte: #3c096c;
     --Roxo: #5A189A;
     --Roxo-claro: #9D4EDD;
+    --verde:  rgb(8, 148, 3);
     --branco-smoke: #f6f6f5ff;
     --preto: #000000;
     --texto-corpo:"Poetsen One", sans-serif;
@@ -45,7 +46,7 @@ body{
     font-size: 24px;
     color: rgb(8, 148, 3);
     margin-right: 24px;
-}
+}   
 
 
 .cabecalho-nav__link-contato{
@@ -58,3 +59,48 @@ body{
 .cabecalho-nav__link-contato:hover{
     color: rgb(8, 148, 3);
 }
+
+.principal-capa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/capa2.jpg);
+    background-size: 20%;
+}
+
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 200px;
+}
+
+.principal-capa__titulo{
+  font-family: var(--texto-titulo); 
+  font-size: 32px;
+  color: var(--branco-smoke);
+  margin-bottom: 12px;
+}
+
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+    color: var(--branco-smoke);
+}
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa__botao{
+    background-color: var(--branco-smoke);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--verde);
+    text-decoration: none;
+}
+

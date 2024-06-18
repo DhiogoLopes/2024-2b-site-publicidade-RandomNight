@@ -96,11 +96,14 @@ body{
 }
 
 .principal-capa__botao{
-    background-color: var(--branco-smoke);
+    background-color: #1b1b1b;
     border-radius: 5px;
     padding: 1em;
     margin-top: 2em;
-    color: var(--verde);
+    color: var(--branco-smoke);
     text-decoration: none;
+    text-transform: uppercase;
 }
-
+.principal-capa__botao:hover{
+background: #302f2f
+}

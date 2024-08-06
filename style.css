@@ -137,7 +137,7 @@ background: #302f2f
 }
 .propaganda__titulo:hover{
     text-shadow: 3px 3px5px var(--preto);
-    
+
 }
 
 .propaganda__texto{
@@ -155,7 +155,7 @@ background: #302f2f
  color: var(--Roxo);
 }
 
-.dispositos__lista{
+.dispositivos__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -163,11 +163,12 @@ background: #302f2f
 }
 
 .lista__item{
+    display: flex;
     font-size: 24px;
     color: var(--branco-smoke);
 }
 
-.rodape_lista{
+.rodape__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;

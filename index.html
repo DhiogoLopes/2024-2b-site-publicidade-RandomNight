@@ -3,104 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-Ua-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RandomNight</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+    <title>Katflix</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <img src="img/logo.png" alt="" class="cabecalho-img">
-        <nav class="cabecalho-nav">
-            <a href="#" class="cabecalho-nav__link-home">Home</a>
-            <a href="#" class="cabecalho-nav__link-contato">Contato</a>
-        </nav>
-    </header>
-    <main class="principal">
-        <section class="principal-capa">
-                <div class="principal-capa__conteudo">
-                    <h1 class="principal-capa__titulo">RandomNight</h1>
-                    <p class="principal-capa__texto">Os moletom mais estilosos do mundo</p>
-                </div>
-                <a href="#" class="principal-capa__botao"> Faça sua encomenda!</a>
-                <a href="#" class="principal-capa__botao botao__secundario">Entre em contato!</a>
-            </div>
-            <img src="img/logo.png" alt="">
-        </section>
-        <section>
-            <section class="propaganda propaganda01">
-                <img src="img/camisa_pandabr_costa.png" alt="Moletom da PandaBr" class="proganda__imagem">
-                <div class="proganda__conteudo">
-                    <h2 class="propaganda__titulo">Só aqui voce encontra!</h2>
-                    <p class="propaganda__texto">Aqui temos os moletom mais estilosos do mundo!!</p>
-                </div>
-            </section>
-            <section class="propaganda">
-             <div class="propaganda02">
-                <div class="propaganda__conteudo">
-                    <h2 class="propaganda__titulo">Posso fazer tudo online?</h2>
-                    <p class="propaganda__texto"> Compre aqui, vende la, troque em mobilidade</p>
-                </div>
-                <a href="#" class="propaganda__botao principal-capa__botao" ></a>
-             </div>
-             <img class="propaganda__imagem imagem02" src="img/camisa_tigrecn_costas.png" alt="">
-            </section>
-            <section class="propaganda propaganda03">
-                <img class="propaganda__imagem imagem03" src="img/camisa-tubaraouk_costa.png" alt="">
-                   <div class="propaganda__conteudo"> 
-                    <h2 class="propaganda__titulo">O que voce pode encontrar aqui?</h2>
-                    <p class="propaganda__texto">Os melhores moletom do mundo!!</p>
-                   </div>
-            </section>
-            <section class="dispositivos">
-                <h2 class="dispositivos__titulo"></h2>
-                <ul class="dispositivos__lista">
-                <li>
-                   <img src="img/tv.svg" alt="">
-                   <h3 class="lista__item">Tvs</h3>
+        <div class="caixa">
+            <input type="checkbox" class="caixa__botao" id="menu">
+            <label for="menu">
+                <span class="cabecalho__menu-filme caixa__imagem"></span>
+                <img src="/img/Polygon 1 (Stroke).png" alt="">
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Programaçao</a>
                 </li>
-                <li>
-                   <img src="img/computador.svg" alt="">
-                   <h3 class="lista__item">Computadores</h3>
+                <li class="lista-menu__link">
+                    <a class="lista-menu__link" href="#">Front-end</a>
                 </li>
-                <li>
-                   <img src="img/celular.svg" alt="">
-                   <h3 class="lista__item">Celulares</h3>
+                <li class="lista-menu__link">
+                    <a class="lista-menu__link" href="#">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__link">
+                    <a class="lista-menu__link" href="#">Business</a>
+                </li>
+                <li class="lista-menu__link">
+                    <a class="lista-menu__link" href="#">Desing & UX</a>
                 </li>
             </ul>
-            </section>
-        </section>
-    </main>
-    <footer class="rodape">
-        <img src="img/logo.png" alt="logo da entrala" class="rodape__logo">
-        <ul class="rodape__lista">
-            <li class="lista__link">
-         <a href="#">Idiomas</a>
-            </li>
-            <li class="lista__link">
-         <a href="#">Dispositivos compativeis</a>
-            </li>
-            <li class="lista__link">
-         <a href="#">Seja premium</a>
-            </li>
-            <li class="lista__link">
-         <a href="#">Poitica e privacidade</a>
-            </li>
-            <li class="lista__link">
-         <a href="#">Proteçao de dados</a>
-            </li>
-            <li class="lista__link">
-         <a href="#">Anuncio personalizaos</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Ajuda</a>
-            </li>
-        </ul>
+        </div>
+        <div class="caixa">
+            <a href=""><img src="img/Favoritos.svg" alt="Favoritos"></a>
+            <a href=""><img src="img/Compras.png" alt="Compras"></a>
+            <a href=""><img src="img/Usuario.png" alt="Usuario"></a>
+        </div>
 
-    </footer>
+
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" placeholder="Qual sera seu proximo filme?"> 
+    </section>
+
 </body>
 
 </html>
